@@ -22,5 +22,5 @@ mutex.o: mutex.s
 clean:
 	rm -f $(objects) atomic
 
-qemu:
-	qemu-arm ./atomic
+qemu:	
+	qemu-arm atomic
